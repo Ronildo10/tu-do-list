@@ -1,5 +1,8 @@
 # tu-do-list
 
+![FireShot Capture 001 - To Do Advanced - 127 0 0 1](https://github.com/Ronildo10/tu-do-list/assets/130249796/2ccd75ae-a93f-4d47-bed5-187d0521af02)
+
+
 To Do Advanced é uma aplicação web avançada de gerenciamento de tarefas que permite aos usuários organizar suas atividades diárias de forma eficiente. Com recursos como adição, edição e exclusão de tarefas, acompanhamento de conclusão e filtros personalizáveis, essa aplicação ajuda a aumentar a produtividade e o foco.
 
 Tecnologias Utilizadas:
