@@ -1,0 +1,161 @@
+/* Geral */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #f3e6e6;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/praia.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    background-color: #fdfdfd;
+    color:  rgba(26, 222, 153, 0.4);
+    border: 2px solid rgba(26, 222, 153, 0.4);
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgba(26, 222, 153, 0.4);
+    padding: 1.5rem;
+    color: aliceblue;
+}
+
+button:hover {
+    color: rgba(26, 222, 153, 0.4);
+}
+
+button > i {
+    color:rgba(11, 237, 158, 0.992);;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input, select {
+    padding: 0.27rem 0.7rem;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+/* todo header*/
+.todo-conteiner {
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color:  rgba(26, 222, 153, 0.4);
+    padding: 1.5rem;
+    border-radius: 20px;
+
+}
+
+.todo-conteiner header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* todo form */
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc
+}
+
+#todo-form p,
+#edit-form p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control input {
+    margin-right: .3rem;
+}
+
+#cancel-edit-btn {
+    margin-top: 1rem;
+}
+
+/*todo toolbar*/
+#tooblber {
+    padding: 1rem;
+    border-bottom: .1rem solid#ccc;
+    display: flex;
+}
+
+#tooblber h4 {
+    margin-bottom: .5rem;
+}
+
+#search {
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+#search form {
+    display: flex;
+}
+
+#search input {
+    width: 100%;
+    margin-right: 0.3rem;
+}
+
+#filter {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#filter select {
+    flex: 1;
+}
+
+/* todo liste */
+.todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid#DDD;
+    transition: .3s;
+}
+
+.todo h3 {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.todo button {
+    margin-left: 0.4rem;
+}
+
+.done {
+    background-color: #328a0396;
+}
+
+.done h3 {
+    color: #fff;
+    text-decoration: line-through;
+    font-style: italic;
+}
